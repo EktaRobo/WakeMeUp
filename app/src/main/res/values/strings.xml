@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">TryOut5</string>
+    <string name="destination">Choose your Destination</string>
 </resources>

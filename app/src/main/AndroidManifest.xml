@@ -5,6 +5,7 @@
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
     <application
+        android:name=".GpsApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -14,7 +15,7 @@
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyCjX_vFz5DzcVdPsrtj0f8hbYpUaDq8ZpU"/>
 
-        <activity android:name=".MainActivity">
+        <activity android:name=".GpsActivity" android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
